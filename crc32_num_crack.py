@@ -12,7 +12,6 @@ while True:
      text=''
      for i in range(length):
          text+=char[random.randint(0,len(char)-1)]
-         print(i)
      if crc32_f(text)==crc32_:
          raw_input('find it:'+text)
          exit
